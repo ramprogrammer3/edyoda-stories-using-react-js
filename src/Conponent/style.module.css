@@ -1,0 +1,132 @@
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow:  0 1px 1px #ccc;
+}
+
+#leftpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: 100px;
+}
+
+#rightpart{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#rightpart button{
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#rightpart{
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+#logo{
+    color: #0084ff;
+    font-size: 24px;
+    font-weight: 700;
+}
+#logo span{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#category{
+    font-size: 16px;
+}
+
+#angle{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#post{
+    width: 65%;
+    margin: 20px auto;
+}
+.latestpost{
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+#filter{
+    color: #0084ff;
+    margin-right: 10px;
+}
+#p{
+    margin-bottom: 20px;
+}
+.items{
+    text-decoration: none;
+   display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #0084ff;
+    border-radius: 30px;
+    color: #0084ff;
+}
+
+.items:hover{
+    background-color: #0084ff;
+    color: #fff;
+}
+
+#productcart{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    width: calc(33% - 22px);
+ 
+    margin: 10px;
+    box-shadow: 0 1px 2px grey, 0 1px 3px grey ;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+}
+
+.titledesc{
+    margin: 10px;
+    padding: 5px;
+}
+.title{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.author{
+    margin-bottom: 10px;
+    
+    
+}
+.author span{
+    color: #0084ff;
+    text-transform: capitalize;
+}
+
+
+.description{
+    opacity: 0.6;
+}
